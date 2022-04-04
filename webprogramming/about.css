@@ -1,0 +1,38 @@
+.about_cont {
+    background-color: #070d1f;
+    width: 70%;
+    margin: auto;
+}
+
+.mb-1 {
+    margin: 0;
+    margin-bottom: 14.4px;
+}
+
+#character-profile>.character {
+    position: relative;
+}
+
+#character-profile>.character>figure {
+    overflow: hidden;
+    height: 115vh;
+    margin: 0px;
+}
+
+#character-profile>.character>figure>img {
+    width: 100%;
+    margin: 0px;
+}
+
+#character-profile>.character>.character-bio {
+    position: absolute;
+    top: 20%;
+    margin-left: 60%;
+    height: 390px;
+    background-color: #0d0a12;
+    padding: 25px;
+    width: 35%;
+    border-left: 12px solid #3664f4;
+    opacity: 0.8;
+    font-size: 14px;
+}

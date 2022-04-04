@@ -1,0 +1,149 @@
+
+
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-top: 5%;
+}
+
+.container .header {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.container .header h1 {
+    color: #fff;
+    font-weight: 900;
+    margin-top: 10%;
+}
+
+.container .header p {
+    color: #fff;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .card {
+    float: left;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container .card .face {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    /* background-color: #fca311; */
+    background-color: #3664f4;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+    transform: translateY(0);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 10px 10px #00b4d8;
+}
+
+.container .card .face.face1.Yash {
+    background-image: url("images/Yash_Photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.container .card .face.face1.Shivam {
+    background-image: url("images/Shivam_Photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.container .card .face.face1.Yash2 {
+    background-image: url("images/Yash2_Photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.container .card .face.face1 .cont {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .cont {
+    opacity: 1;
+}
+
+.container .card .face.face1 .cont h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .card .face.face2 {
+    position: relative;
+    background: #14213d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px #00b4d8;
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+    transform: translateY(0);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.container .card .face.face2 p {
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face.face2 a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    padding: 5px;
+    border: 1px solid #3664f4;
+}
+
+.container .card .face.face2 a:hover {
+    background: #3664f4;
+    color: #fff;
+}
+
+.font_card {
+    font-family: verdana;
+    color: white;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}

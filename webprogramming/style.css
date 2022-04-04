@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    min-block-size: 100%;
+    border: var(--bw-1) solid var(--c-bd-1);
+    background-color: #070d1f;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.about {
+    font-family: Verdana;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+/* .about-container {
+    display: flex;
+    background-color: #fca311;
+}
+
+.about-container>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+} */
+
+#c1 {
+    width: 350px;
+    height: 5px;
+    background-color: #fca311;
+}
+
+#c2 {
+    width: 220px;
+    height: 5px;
+    background-color: #fca311;
+}
+
+#c3 {
+    width: 5px;
+    height: 300px;
+    /* background-color: #013a63 ; */
+    background-color: white;
+}
+
+.div_about {
+    /* margin: 100px; */
+    font-size: 24;
+    text-align: center;
+}
+
+
+/* .div_body{
+  text-align: center;
+  float: left;
+} */
+
+
+/* .div_para{
+  margin: auto;
+  width: 800px;
+} */
+
+
+/* .div_quote{
+  margin: auto;
+  width: 1000px; 
+  text-align: center;
+} */
+
+.contributor {
+    margin: auto;
+    text-align: center;
+}
+
+#about_header {
+    font-family: verdana;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+/* .carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 10px #000;
+  text-align: center;
+  align-items: center;
+} */
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    margin-left: -10px;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+*,
+ :before,
+ :after {
+    box-sizing: border-box;
+}
+
+.unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.unstyled a {
+    text-decoration: none;
+}
+
+.list-inline {
+    overflow: hidden;
+}
+
+.list-inline li {
+    float: left;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 17.5em;
+    background: #14213d;
+}
+
+.logo {
+    /* font: 300 2em; */
+    /* font-family: 'Lora', serif; */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo a {
+    display: block;
+    padding: 1em 0;
+    color: #fca311;
+    text-decoration: none;
+    transition: .15s linear color;
+}
+
+.logo a:hover {
+    color: #fff;
+}
+
+.logo a:hover span {
+    color: #DF4500;
+}
+
+.logo span {
+    font-weight: 700;
+    transition: .15s linear color;
+}
+
+
+/* .main-nav ul {
+  border-top: solid 1px #e5e5e5;
+}
+.main-nav li {
+  border-bottom: solid 1px #e5e5e5;
+} */
+
+.main-nav a {
+    padding: 1.1em 0;
+    color: #DFDBD9;
+    font: 400 1.125em verdana;
+    text-align: center;
+}
+
+.main-nav a:hover {
+    color: #fff;
+}
+
+.list-hover-slide li {
+    position: relative;
+    overflow: hidden;
+}
+
+.list-hover-slide a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: .35s ease color;
+}
+
+.list-hover-slide a:before {
+    content: '';
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-right: solid 5px #fca311;
+    background: #013a63;
+    transition: .35s ease left;
+}
+
+.list-hover-slide a.is-current:before,
+.list-hover-slide a:hover:before {
+    left: 0;
+}
+
+
+/* .image{
+  width: 1028px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left:-33px;
+  margin-right: 0px;
+  margin-top:-10px;
+} */
+
+img {
+    display: block;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+div.polaroid {
+    margin-left: 275px;
+    margin-top: -10px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+/* .about_cont {
+    background-color: #fcbf49;
+    height: 260px;
+} */
